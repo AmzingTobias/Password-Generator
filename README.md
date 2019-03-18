@@ -1,2 +1,3 @@
-# Password-Generator
-A Password Generator built in python
+##Password Generator
+#Overview
+The program is coded in python and uses the libraries string, random. These allow it to pick random numbers from different lists and compile the ascii alphabets into lists as well. The user can enter the length of the required password to be generated, anything from 0 and up (up to index-sized integer). There is also validation present in the program to make sure the user is entering the correct data, this was an easy task as there is only one line of input, so it only required no more than one validation function. The alphabet used is English. The program could be made shorter if the three different lists were compiled into the same list however I preferred having 3 separate lists as it keeps it more organised and also means that there’s an equal chance for special characters to be picked, since less of them appear in the list it means that if they were all in the same list they’d have a lower chance of being generated compared to English characters in the alphabet.
